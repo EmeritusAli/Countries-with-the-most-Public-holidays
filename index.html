@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries with the most holidays</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Countries with the most holidays</h1>
+        <!-- write introduction to the chart -->
+        <p class="intro">This interactive chart highlights the countries around the world that enjoy the most public holidays. 
+            Explore the map to discover how many holidays each country has.</p>
+        <p>Hover over a country to see the number of holidays it has.</p> 
+    </div>
+    <div class="wrapper">
+    <div class="tooltip" id="tooltip">
+        <div class="tooltip-country" id="country"></div>
+        <div class="tooltip-value">
+            <span id="value"></span>
+        </div>
+    </div>
+
+   </div>
+
+    <!-- add footergiving information about the author, source , and project name -->
+    <footer>
+        <p>Author: <a href="https://bit.ly/AdekolaAli">Adekola Ali</a></p>   
+        <p>Source: <a href="https://worldpopulationreview.com/country-rankings/countries-with-the-most-holidays">World Population Review</a></p>
+        <p>Project: <a href="https://makeovermonday.co.uk">#MakeOverMonday</a></p>
+    </footer>
+
+
+    <script src="./d3.v5.js"></script>
+    <script src="./map.js"></script>
+
+</body>
+</html>
